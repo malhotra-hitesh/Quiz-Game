@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play the Quiz Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="quiz-container">
+         <h1>Quiz Game</h1>
+        <div class="question" id="question"></div>
+        <button class="answer-button" onclick="checkAnswer(true)">True</button>
+        <button class="answer-button" onclick="checkAnswer(false)">False</button>
+        <p>Score: <span id="score">0</span></p>
+        <p class="correct-answer" id="correct-answer"></p>
+        <button class="restart-button" onclick="restartGame()">Restart Game</button>
+    </div>
+
+    <script src="./index.js"> </script>
+</body>
+</html>
